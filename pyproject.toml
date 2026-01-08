@@ -1,0 +1,25 @@
+[project]
+name = "starter_interview_swe_python"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+requires-python = "~3.11"
+dependencies = [
+    "Flask==2.2.5",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.408"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+strictListInference = true
+strictDictionaryInference = true
+reportMissingTypeStubs = true
+pythonVersion = "3.11"
