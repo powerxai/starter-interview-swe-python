@@ -14,7 +14,7 @@ Any other setup instructions are deliberately left blank.
 - Python 3.11.X
 - [Flask](https://flask.palletsprojects.com/) (web framework)
 - Poetry (dependency management)
-- (dev) [Pyright](https://github.com/microsoft/pyright). (static type checking)
+- (dev) [Pyright](https://github.com/microsoft/pyright) (static type checking)
 
 ## Notes
 - All dependencies and tooling configuration are managed in `pyproject.toml`.
