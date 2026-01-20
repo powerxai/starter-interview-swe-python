@@ -2,6 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+PORT = 3000
+
 @app.post("/data")
 def post_data():
     # TODO: parse raw_data and save to the database
@@ -15,4 +17,4 @@ def get_data():
     return {"success": False}
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=PORT)
